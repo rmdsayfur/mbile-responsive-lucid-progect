@@ -1,0 +1,294 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px){
+    
+    /* CSS */
+  header{
+        height: 65vh;
+        padding: 0px 15px;
+        text-align: center;
+       
+    }
+    .cus-height .ba-inner{
+      height: 70vh;
+      
+  }
+  header .ba-inner h1{
+    font-size: 30px;
+}
+header .ba-inner p{
+  width: 100%;
+  padding: 0px 20px;
+}
+.product{
+  text-align: center;
+  padding: 50px 11px;
+  border-bottom: 1px solid rgb(215 215 215);
+}
+.product h2{
+  font-size: 30px;
+ 
+}
+.product .content{
+   margin-bottom: 50px ;
+}
+.product .content h4{
+  font-size: 22px;
+  margin-top: 10px; 
+}
+
+.product .content p{
+  font-weight: 300;
+  margin: 30px auto;
+
+}
+.product .line{
+  width: 15%;
+  transition: 0.6s;
+}
+.product:hover .line{
+  width: 25%;
+  transition: 0.6s;
+}
+
+.beautiful .dip-inner{
+  text-align: left;
+  padding: 0px 20px;
+}
+.beautiful .mobile{
+  text-align: center;
+}
+.beautiful .mobile img{
+  width: 80%;
+}
+.beautiful .dip-inner h2{
+  font-size: 30px;
+ 
+}
+.beautiful .dip-inner .line{
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  width: 15%;
+  transition: 0.6s;
+}
+.beautiful .dip-inner:hover .line{
+  width: 25%;
+  transition: 0.6s;
+}
+.beautiful .dip-inner p{
+  font-weight: 300;
+  width: 95%;
+  margin-top: 20px;
+
+}
+.beautiful .dip-inner .icon-part ul li i{
+  font-size: 20px;
+  margin-right: 5px;
+  
+  
+}
+
+.beautiful .dip-inner .icon-part ul li span {
+    margin-left: 2px;
+}
+.super{
+  padding: 0px 15px ;
+  
+}
+.super .super-part h2 {
+  font-size: 30px;
+ 
+}
+.super .super-part .line{
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  width: 15%;
+  transition: 0.6s;
+}
+.super .super-part .line{
+  width: 25%;
+  transition: 0.6s;
+}
+.super .super-part p{
+  font-weight: 300;
+ margin-top: 50px;
+}
+.testimonial{
+
+  text-align: left;
+  padding: 50px 15px;
+  
+}
+/* .testimomial-part{
+  text-align: center;
+} */
+
+.testimonial .testimomial-part .line{
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  width: 15%;
+  transition: 0.6s;
+}
+.testimonial .testimomial-part .line{
+  width: 25%;
+  transition: 0.6s;
+}
+.owl-carousel .item {
+
+  text-align: left;
+ 
+}
+.like{
+  padding: 0px 15px;
+ 
+}
+.like h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  
+}
+.like .btns2 {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.like .btns2 a{
+  
+  padding: 10px 20px; 
+ 
+}
+.pricing {
+  text-align: center;
+  padding: 50px 25px;
+}
+.pricing .line{
+  margin: 10px auto;
+  padding-bottom: 20px;
+  width: 15%;
+  transition: 0.6s;
+}
+.pricing .line{
+  width: 25%;
+  transition: 0.6s;
+}
+.pricing .pc-card{
+  margin: 30px 0px;
+}
+
+.contact.line{
+  margin: 10px auto;
+  padding-bottom: 20px;
+  width: 15%;
+  transition: 0.6s;
+}
+.contact .line{
+  width: 25%;
+  transition: 0.6s;
+}
+.contact .p-icon i{
+  font-size: 40px;
+ 
+}
+.contact .p-icon p{
+  margin-bottom: 25px;
+}
+.contact form{
+  width: 95%;
+  margin: 88px auto 30px;
+  padding: 50px 30px 50px;
+  position: relative;
+  z-index: 1;
+ 
+ 
+}
+.contact form .form-part{
+  display: flex;
+  flex-direction: column;
+
+}
+.contact form .form-part .left{
+  margin-right: 0px;
+ 
+} 
+.contact form .form-part .right{
+  margin-left: 0px;
+ 
+}
+.contact form .form-part .left input {
+  padding: 10px 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #999999;
+  background: transparent;
+  border-radius: 8px;
+  transition: 0.7s;
+}
+.contact form .form-part .right textarea {
+  padding: 10px 8px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #999999;
+}
+}
